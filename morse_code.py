@@ -1,7 +1,7 @@
 ONE_UNIT = 0.5
 THREE_UNITS = 3 * ONE_UNIT
 SEVEN_UNITS = 7 * ONE_UNIT
-CODE = {
+CODE_DICT = {
     'A': '.-',
     'B': '-...',
     'C': '-.-.',

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Morse Code Translator</title>
+</head>
+<body>
+<form action="{{ url_for('translate') }}" method="post">
+        <label>What do you want me to translate?</label>
+        <input type="text" placeholder="" name="word">
+        <button type="submit">Translate</button>
+</body>
+</html>
